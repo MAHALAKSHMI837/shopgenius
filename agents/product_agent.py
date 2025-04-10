@@ -27,5 +27,7 @@ class ProductAgent:
             "Product_ID": self.product_id,
             "Category": self.profile.get("Category", ""),
             "Subcategory": self.profile.get("Subcategory", ""),
-            "Brand": self.profile.get("Brand", "")
+            "Brand": self.profile.get("Brand", ""),
+            "Price": self.profile.get("Price")  
+
         }

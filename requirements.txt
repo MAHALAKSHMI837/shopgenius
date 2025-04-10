@@ -1,0 +1,10 @@
+streamlit==1.31.1
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.1
+openai==1.14.2  # if you're using GPT-based agents
+python-dotenv==1.0.1  # for managing environment variables (like OpenAI keys)
+matplotlib==3.8.3         # for plotting, if any
+seaborn==0.13.2           # for visualizations
+plotly==5.20.0            # interactive visualizations (Streamlit + Plotly)
+requests==2.31.0          # API requests
