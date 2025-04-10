@@ -30,8 +30,8 @@ Clone the repo
 
 bash
 Copy code
-git clone https://github.com/yourusername/ecommerce-genai.git
-cd ecommerce-genai
+git clone [https://github.com/MAHALAKSHMI837/shopgenius.git]
+cd ecommerce_recommender
 Create virtual environment (optional but recommended)
 
 bash
