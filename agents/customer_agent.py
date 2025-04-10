@@ -22,6 +22,13 @@ class CustomerAgent:
             "Season": self.profile.get("Season", "All")
         }
 
+    def get_age(self):
+        return self.profile.get("Age", None)
+
+    def get_gender(self):
+        return self.profile.get("Gender", "Unknown")
+
+
 class CustomerAgentManager:
     def __init__(self, customer_df):
         self.customers = {
