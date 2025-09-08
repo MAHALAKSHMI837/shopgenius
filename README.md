@@ -44,7 +44,7 @@ ecommerce-genai/
 │
 ├── data/
 │   ├── customers.csv
-│   ├── products.csv
+│   ├── products.csv 
 │
 ├── dashboard.py
 ├── recommendation_engine.py
