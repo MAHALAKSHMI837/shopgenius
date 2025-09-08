@@ -3,50 +3,33 @@ An AI-driven personalized shopping experience platform that uses intelligent age
 
 📌 Features
 ✅ Customer Profiling Agent – Understands user interests, location, segment (e.g., Premium), and seasonal context.
-
 ✅ Product Agent – Scores and ranks product relevance per user.
-
 ✅ Recommendation Engine – Ranks top-N products using intelligent matching.
-
 ✅ Explainability Agent – Offers human-readable reasoning for each recommendation.
-
 ✅ Streamlit Dashboard – Simple and interactive UI for users to select their ID and view recommendations with explanations.
-
 ✅ Expandable AI Capabilities – Designed to support GenAI chat, promo agents, feedback loops, and more.
 
 🧠 How It Works
 Load customer and product datasets.
 
 For each customer:
-
 Generate top product recommendations.
-
 Explain why those items were selected.
-
 Display recommendations on an interactive dashboard using Streamlit.
 
 🚀 Setup Instructions
 Clone the repo
-
-bash
-Copy code
 git clone [https://github.com/MAHALAKSHMI837/shopgenius.git]
 cd ecommerce_recommender
-Create virtual environment (optional but recommended)
 
-bash
-Copy code
+Create virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate
+
 Install dependencies
-
-bash
-Copy code
 pip install -r requirements.txt
-Run the app
 
-bash
-Copy code
+Run the app
 streamlit run dashboard.py
 
 📁 Project Structure
@@ -72,13 +55,9 @@ Include images of your dashboard UI showing personalized recommendations and exp
 
 ✅ To Do (or Optional Extensions)
 Add Chat-based GenAI Shopping Assistant
-
 Real-time Feedback Loop Agent
-
 Admin Dashboard with Insights
-
 Explainable AI Visualizations
-
 Integration with Payment and Inventory Systems
 
 💡 Inspiration
